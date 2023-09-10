@@ -15,7 +15,7 @@ class TrackCell: UITableViewCell {
     @IBOutlet weak var trackImageView: UIImageView!
     @IBOutlet weak var trackNameLabel: UILabel!
     @IBOutlet weak var artistNameLabel:
-    UILabel!
+    UILabel! //test
     
     override func awakeFromNib() {
         super.awakeFromNib()

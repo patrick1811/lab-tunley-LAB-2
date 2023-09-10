@@ -61,7 +61,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="artistNameLabel2" destination="6sf-g2-MmQ" id="LXV-VD-gfU"/>
-                                            <outlet property="trackIamageView" destination="Pwy-Vr-ZDM" id="cLF-ed-qUa"/>
+                                            <outlet property="trackImageView" destination="Pwy-Vr-ZDM" id="wWi-5Q-bdA"/>
                                             <outlet property="trackNameLabel" destination="prQ-Ud-0SP" id="4TW-GY-Kj9"/>
                                             <segue destination="WgW-3b-CZ7" kind="show" id="e5C-mE-PtH"/>
                                         </connections>

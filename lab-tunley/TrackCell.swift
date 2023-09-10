@@ -13,8 +13,9 @@ class TrackCell: UITableViewCell {
     
     
 
-    @IBOutlet weak var trackImageView: UIImageView!
     
+    
+    @IBOutlet weak var trackImageView: UIImageView!
     @IBOutlet weak var trackNameLabel: UILabel!
     
     @IBOutlet weak var artistNameLabel2: UILabel!
@@ -25,7 +26,7 @@ class TrackCell: UITableViewCell {
     }
     override func setSelected(_ selected: Bool, animated: Bool){
         super.setSelected(selected, animated: animated)
-    
+    }
     func configure(with track: Track) {
         trackNameLabel.text = track.trackName
         artistNameLabel2.text = track.artistName
@@ -49,4 +50,4 @@ class TrackCell: UITableViewCell {
     }
     */
 
-}
+

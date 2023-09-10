@@ -12,11 +12,12 @@ class TrackCell: UITableViewCell {
     
     
     
+
     @IBOutlet weak var trackImageView: UIImageView!
-    @IBOutlet weak var trackNameLabel: UILabel!
-    @IBOutlet weak var artistNameLabel:
-    UILabel! //test
     
+    @IBOutlet weak var trackNameLabel: UILabel!
+    
+    @IBOutlet weak var artistNameLabel2: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         
@@ -27,7 +28,7 @@ class TrackCell: UITableViewCell {
     
     func configure(with track: Track) {
         trackNameLabel.text = track.trackName
-        artistNameLabel.text = track.artistName
+        artistNameLabel2.text = track.artistName
 
         // Load image async via Nuke library image loading helper method
         Nuke.loadImage(with: track.artworkUrl100, into: trackImageView)

@@ -32,8 +32,10 @@ class TracksViewController: UIViewController, UITableViewDataSource {
     // TODO: Pt 1 - Add a tracks property
     var tracks: [Track] = []
     // TODO: Pt 1 - Add table view outlet
-    @IBOutlet var tableView: UITableView!
     
+    
+    
+    @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         tracks = Track.mockTracks
